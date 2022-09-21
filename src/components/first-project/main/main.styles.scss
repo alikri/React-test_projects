@@ -1,0 +1,32 @@
+
+.main-wrapper {
+	width: 100vw;
+	height: 100vh;
+	background: url('../../../assets/bc-react.png') no-repeat;
+	background-size: cover;
+}
+
+.main-container {
+	max-width: 1000px;
+	margin: 0 auto;
+	color: white;
+
+	h1 {
+		padding-top: 60px;
+		margin-bottom: 50px;
+	}
+
+
+	li {
+		color: #61DAFB;
+		font-size: 40px;
+		
+
+		span {
+			color: white;
+			font-size: 18px;
+			text-align: center;
+			vertical-align: middle;
+		}
+	}
+}
