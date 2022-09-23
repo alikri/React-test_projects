@@ -1,0 +1,54 @@
+
+.airbnb-card-container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 12px;
+	position: relative;
+
+	.sold-out {
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		z-index: 100;
+		background: #FFFFFF;
+		border-radius: 2px;
+		padding: 2px 6px;
+	}
+
+}
+
+.card-pic-container {
+	margin-bottom: 7px;
+
+	img {
+		height: 235px;
+		width: 176px;
+	}
+}
+
+.card-ratings {
+	margin-left: 3px;
+	margin-bottom: 5px;
+
+	p {
+		display: inline;
+		margin-left: 5px;
+		color: #918E9B;
+	}
+	
+}
+
+.card-short-description {
+	margin-bottom: 5px;
+	margin-left: 4px;
+	line-height: 110%;
+	width: 200px;
+
+}
+
+.card-price {
+	span {
+		margin-left: 4px;
+		font-weight: 600;
+	}
+}
