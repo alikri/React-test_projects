@@ -1,6 +1,6 @@
 import "./airbnb-card.styles.scss";
 // import Katie from "../assets/image 12.png";
-import { ReactComponent as Star } from "../assets/Star 1.svg";
+import { ReactComponent as Star } from "../airbnb-assets/star.svg";
 
 const AirbnbCard = (props) => {
 	const { price, coverImg, title, location, openSpots } = props;

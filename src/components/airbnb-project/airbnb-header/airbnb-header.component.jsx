@@ -1,5 +1,5 @@
 import "./airbnb-header.styles.scss";
-import { ReactComponent as AirbnbLogo } from "../assets/airbnb 1.svg";
+import { ReactComponent as AirbnbLogo } from "../airbnb-assets/airbnbLogo.svg";
 
 const AirbnbHeader = () => {
 	return (

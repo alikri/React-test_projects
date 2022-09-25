@@ -1,5 +1,5 @@
 import "./airbnb-home.component.scss";
-import GridPic from "../assets/Group 77.png";
+import GridPic from "../airbnb-assets/images/photo-grid.png";
 
 const AirbnbHome = () => {
 	return (
