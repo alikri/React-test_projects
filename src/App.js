@@ -1,10 +1,14 @@
 import AirbnbMain from './components/airbnb-project/airbnb-main.component';
 import './App.css';
-import cardData from './components/airbnb-project/data';
-
+import TravelMain from './components/Travel Journal/travel.main.component';
 function App() {
-  return (
-    <AirbnbMain/>
+	return ( 
+		<div>
+			<TravelMain />
+			<AirbnbMain />
+	  </div>
+
+	  
   );
 }
 
