@@ -8,7 +8,7 @@ const TenziesMain = () => {
 
 	const [dice, setDice] = useState(allNewDice())
 	const [tenzies, setTenzies] = useState(false)
-    
+	const [count, setCount] = useState(0);
     useEffect(() => {
 		let allHeld = dice.every(die => die.isHeld);
 		let firstValue = dice[0].value;
@@ -33,10 +33,10 @@ const TenziesMain = () => {
 		}
 		return arr;
 	}
-
 	const rollDice = () => {
 		if (!tenzies) {
 			setDice(oldDice => oldDice.map(die => die.isHeld ? die : generateNewDie()))
+			setCount(prevCount => prevCount + 1);
 		} else {
 			setTenzies(false);
 			setDice(allNewDice())
@@ -56,6 +56,7 @@ const TenziesMain = () => {
 
 	return (
 		<main className="tenzies-background">
+			<h2 className="rolls-quantity">{tenzies? `You used ${count} rolls`: ""}</h2>
 			{tenzies && <Confetti />}
 			<div className="tenzies-main-container">
 				<h1 className="tenzie-title">Tenzies</h1>

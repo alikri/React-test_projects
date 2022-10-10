@@ -4,7 +4,7 @@ import MemeForm from "./meme-form/meme-form.component";
 
 const MemeMain = () => {
 	return (
-		<div>
+		<div className="meme-main-container">
 			<MemeHeader />
 			<MemeForm />
 		</div>

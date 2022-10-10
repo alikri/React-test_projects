@@ -8,9 +8,9 @@ import TenziesMain from './components/tenzies-game-main-project/tenzies-main';
 function App() {
 	return ( 
 		<div>
-			{/* <TravelMain />
-			<AirbnbMain /> */}
-			{/* <MemeMain /> */}
+			<TravelMain />
+			<AirbnbMain /> 
+			 <MemeMain />
 			<TenziesMain/>
 			
 	  </div>
